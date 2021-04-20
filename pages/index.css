@@ -1,9 +1,12 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/__container/page__container.css);
+@import url(../blocks/page/__container/_size_narrow/page__container_size_narrow.css);
+@import url(../blocks/page/__container/_size_wide/page__container_size_wide.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__language-list/header__language-list.css);
+@import url(../blocks/header/__language-link/header__language-link.css);
+@import url(../blocks/link/link.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css/);

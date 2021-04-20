@@ -1,0 +1,27 @@
+.page__container_size_narrow {
+    padding: 0 148px;
+}
+
+@media screen and (max-width: 1024px) {
+    .page__container_size_narrow {
+        padding: 0 48px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page__container_size_narrow {
+        padding: 0 24px; 
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .page__container_size_narrow {
+        padding: 0 16px; 
+    }
+
+    .header {
+        padding: 20px 0 0 0;
+    }
+}
+
+
