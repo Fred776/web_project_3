@@ -8,8 +8,9 @@
   <title>Learning how to learn</title>
   <link rel="stylesheet" href="pages/index.css">
 </head>
-<body class="root">
+<body class="page">
     <div class="page__container_size_narrow">
+        <!--FORGOT MEDIA QUERIES FOR PADDING IN HEADER -->
         <header class="header">
             <img class="header__logo" src="images/logo-usa.svg" alt="The USA">
             <ul class="header__language-list">
@@ -18,27 +19,34 @@
             </ul>
         </header>
     </div>
-    <section class="lead">
-        <h1 class="lead__title">From Portland to Portland</h1>
-        <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</p>
-        <img class="lead__image" src="" alt="Mountains in Portland">
-        <p class="lead__caption">Your journey starts here</p>
-    </section>
-    <section class="intro">
-        <h2 class="intro__title">Know the country you live in a little better</h2>
-        <p class="intro__text">That's exactly what we have arranged for you via this travel story</p>
-        <p class="intro__text">Need more action and adventure in your life instead of the same old routine? From Portland, Maine to Portland, Oregon we're
-        going to take you on an exciting journey through some unknown regions of your country. Leave the car at home and travel by bike starting in New England
-        where it all began. You will pass through 12 beautiful states, covering a total of 3,600 miles, and accomplish 3 monumental missions. Partying and
-        taking a selfie with a famous rock star, donating $1 to a billionaire to help eradicate polio in Africa, and even stopping by famous author Stephen King's
-        house to say hi and asking him to sign your favorite book.</p>
-        <ul class="intro__list">
-            <li>Distance (miles) 3,644</li>
-            <li>Travel time (days) 22</li>
-            <li>Highest point (feet) 9,613</li>
-            <li>Lowest point (feet) -3</li>
-        </ul>
-    </section>
+    <main>
+        <div class="page__container_size_narrow">
+            <!--FORGOT MEDIA QUERIES FOR PADDING IN LEAD + IMAGE OVERFLOWS FROM CONTAINER-->
+            <section class="lead">
+                <h1 class="lead__title">From Portland to Portland</h1>
+                <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</p>
+                <img class="lead__image" src="./images/kalegin-michail-179870-unsplash.svg" alt="Mountains in Portland">
+                <p class="lead__caption">YOUR JOURNEY STARTS HERE</p>
+            </section>
+        </div>
+        <!--FONTS NOT LOADED CORRECTLY?-->
+        <div class="page__container_size_narrow">
+            <section class="intro">
+                <h2 class="intro__title">Know the country you live in a little better</h2>
+                <p class="intro__text">That's exactly what we have arranged for you via this travel story</p>
+                <p class="intro__text">Need more action and adventure in your life instead of the same old routine? From Portland, Maine to Portland, Oregon we're
+                going to take you on an exciting journey through some unknown regions of your country. Leave the car at home and travel by bike starting in New England
+                where it all began. You will pass through 12 beautiful states, covering a total of 3,600 miles, and accomplish 3 monumental missions. Partying and
+                taking a selfie with a famous rock star, donating $1 to a billionaire to help eradicate polio in Africa, and even stopping by famous author Stephen King's
+                house to say hi and asking him to sign your favorite book.</p>
+                <ul class="intro__list">
+                    <li>Distance (miles) 3,644</li>
+                    <li>Travel time (days) 22</li>
+                    <li>Highest point (feet) 9,613</li>
+                    <li>Lowest point (feet) -3</li>
+                </ul>
+            </section>
+        </div>
     <section class="photo-grid">
         <img class="photo-grid__item" src="" alt="">
         <img class="photo-grid__item" src="" alt="">
@@ -111,6 +119,7 @@
             <p class="cover__subtitle">The Main Street of America from Santa Monica, Cal. to Chicago, Ill.</p>
         </div>
     </section>
+    </main>
     <section class="footer">
         <a class="footer__link" href="">Maps</a>
         <a class="footer__link" href="">Weather</a>
