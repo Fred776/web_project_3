@@ -1,0 +1,7 @@
+.cover {
+   max-width: 1184px;
+   padding: 92px 0 0 0;
+   margin: 0;  
+   background-image: url(../../images/cover__background.svg);
+   background-size: cover;
+}
