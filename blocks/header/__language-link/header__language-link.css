@@ -1,24 +1,27 @@
 .header__language-link {
-    max-width: 29px;
-    font-family: "Inter", "sans serif";
+    font-family: "Inter", sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
-    color: #fff;
     text-decoration: none;
-    margin: 0 18px 0 0;
+    color:#fff;
 }
 
-.header__language-link:last-of-type {
-    margin: 0;
+.header__language-link:hover {
+    text-decoration: underline;
+}
+
+.header__language-link:visited {
+    color: #fff;
 }
 
 @media screen and (max-width: 320px) {
     .header__language-link {
         font-size: 18px;
         line-height: 20px;
-        max-width: 22px;
     }
-    
 }
+
+
+

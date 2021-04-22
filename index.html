@@ -5,23 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="My third project at Practicum">
   <meta name="author" content="Frederick Jodozi">
-  <title>Learning how to learn</title>
+  <title>From Portland to Portland</title>
   <link rel="stylesheet" href="pages/index.css">
 </head>
 <body class="page">
     <div class="page__container_size_narrow">
-        <!--FORGOT MEDIA QUERIES FOR PADDING IN HEADER -->
         <header class="header">
             <img class="header__logo" src="images/logo-usa.svg" alt="The USA">
             <ul class="header__language-list">
-                <li class="header__language-link"><a class="link" href="">En</a></li>
-                <li class="header__language-link"><a class="link" href="">Es</a></li>
+                <li class="header__language-item"><a class="header__language-link" href="./index.html">En</a></li>
+                <li class="header__language-item"><a class="header__language-link" href="./index_es.html">Es</a></li>
             </ul>
         </header>
     </div>
     <main>
         <div class="page__container_size_narrow">
-            <!--FORGOT MEDIA QUERIES FOR PADDING IN LEAD + IMAGE OVERFLOWS FROM CONTAINER-->
             <section class="lead">
                 <h1 class="lead__title">From Portland to Portland</h1>
                 <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</p>
@@ -29,7 +27,6 @@
                 <p class="lead__caption">YOUR JOURNEY STARTS HERE</p>
             </section>
         </div>
-        <!--FONTS NOT LOADED CORRECTLY? + HOW TO PUT TWO FONTS IN THE LIST?-->
         <div class="page__container_size_narrow">
             <section class="intro">
                 <h2 class="intro__title">Know the country you live in a little better</h2>
@@ -40,10 +37,10 @@
                 taking a selfie with a famous rock star, donating $1 to a billionaire to help eradicate polio in Africa, and even stopping by famous author Stephen King's
                 house to say hi and asking him to sign your favorite book.</p>
                 <ul class="intro__list">
-                    <li>Distance (miles) 3,644</li>
-                    <li>Travel time (days) 22</li>
-                    <li>Highest point (feet) 9,613</li>
-                    <li>Lowest point (feet) -3</li>
+                    <li class="list__item"><span class="bold">Distance (miles)</span> 3,644</li>
+                    <li class="list__item"><span class="bold">Travel time (days)</span> 22</li>
+                    <li class="list__item"><span class="bold">Highest point (feet)</span> 9,613</li>
+                    <li class="list__item"><span class="bold">Lowest point (feet)</span> -3</li>
                 </ul>
             </section>
         </div>
@@ -161,9 +158,9 @@
     <div class="page__container_size_wide">
         <section class="footer">
             <ul class="footer__menu-list">
-                <li class="footer__menu-link"><a class="link" href="">Maps</a></li>
-                <li class="footer__menu-link"><a class="link" href="">Weather</a></li>
-                <li class="footer__menu-link"><a class="link" href="">Calendar</a></li>
+                <li class="footer__menu-item"><a class="footer__menu-link" href="https://yandex.com/maps">Maps</a></li>
+                <li class="footer__menu-item"><a class="footer__menu-link" href="https://yandex.com/weather/moscow">Weather</a></li>
+                <li class="footer__menu-item"><a class="footer__menu-link" href="https://calendar.yandex.ru">Calendar</a></li>
             </ul>
             <p class="footer__copywrite">© 2021. Frederick Jodozi</p>
         </section>
