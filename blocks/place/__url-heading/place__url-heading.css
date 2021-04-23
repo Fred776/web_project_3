@@ -7,5 +7,15 @@
     letter-spacing: 0.2em;
     color: #AAAAAA;
     margin: 0;
-    padding: 30px 0 0 0;
+    padding: 0;
 }
+
+
+@media screen and (max-width: 768px) {
+    .place__url-heading{
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+
+

@@ -9,5 +9,12 @@
 }
 
 .place__paragraph:first-of-type {
-    padding: 35px 0 0 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
 }

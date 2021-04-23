@@ -2,9 +2,27 @@
     max-width: 984px;
     padding: 80px 0 0 0;
     margin: 0;
-    display: flex;
 }
 
 .place:first-of-type {
     padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        max-width: 720px;
+        padding: 72px 0 0 0;
+    }
+}
+@media screen and (max-width: 320px) {
+    .place {
+        max-width: 320px;
+        padding: 48px 0 0 0;
+    }
 }
