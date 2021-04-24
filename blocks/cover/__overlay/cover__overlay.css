@@ -1,4 +1,5 @@
 .cover__overlay {
+    max-width: 1184px;
     background: #2A2C2F;
     opacity: 80%;
 }
@@ -6,3 +7,21 @@
 .cover__overlay:hover {
     opacity: 30%;
 }
+
+ @media screen and (max-width: 1024px) {
+    .cover__overlay {
+        max-width: 1184px;
+    }
+ }
+ 
+ @media screen and (max-width: 768px) {
+    .cover__overlay {
+        max-width: 768px;
+    }
+ }
+ 
+ @media screen and (max-width: 320px) {
+    .cover__overlay {
+        max-width: 320px;
+    }
+ }

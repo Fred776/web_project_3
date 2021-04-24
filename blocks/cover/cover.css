@@ -4,3 +4,24 @@
    margin: 0; 
    position: relative;
 }
+
+@media screen and (max-width: 1024px) {
+   .cover {
+      max-width: 1024px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .cover {
+      max-width: 768px;
+      padding: 89px 0 0 0;
+   }
+}
+
+@media screen and (max-width: 320px) {
+   .cover {
+      max-width: 320px;
+      padding: 64px 0 0 0;
+   }
+}
+
