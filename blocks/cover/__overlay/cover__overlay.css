@@ -1,27 +1,15 @@
 .cover__overlay {
-    max-width: 1184px;
+    max-width: 100%;
     background: #2A2C2F;
+    position: absolute;
+    top: 92px;
+    left: 0;
+    bottom: 0;
+    right: 0;
     opacity: 80%;
+    z-index: 1;
 }
 
 .cover__overlay:hover {
     opacity: 30%;
 }
-
- @media screen and (max-width: 1024px) {
-    .cover__overlay {
-        max-width: 1184px;
-    }
- }
- 
- @media screen and (max-width: 768px) {
-    .cover__overlay {
-        max-width: 768px;
-    }
- }
- 
- @media screen and (max-width: 320px) {
-    .cover__overlay {
-        max-width: 320px;
-    }
- }
