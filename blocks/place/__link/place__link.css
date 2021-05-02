@@ -10,9 +10,6 @@
     transition: opacity 0.3s ease-in-out;
 }
 
-.place__link:hover {
-    opacity: 80%;
-}
 @media screen and (max-width: 768px) {
     .place__link {
         padding: 12px 0 0 0;
