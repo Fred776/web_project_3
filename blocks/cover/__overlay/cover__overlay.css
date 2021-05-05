@@ -1,14 +1,12 @@
 .cover__overlay {
-    max-width: 100%;
     position: absolute;
-    top: 92px;
+    top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    opacity: 80%;
-    z-index: 1;
-}
-
-.cover__overlay:hover {
-    opacity: 80%;
+    width: 100%;
+    height: 100%;
+    background-color: #2a2c2f; 
+    opacity: 30%;
+    z-index: -1;
 }

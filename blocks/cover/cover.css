@@ -1,22 +1,33 @@
 .cover {
-   max-width: 1184px;
-   padding-top: 92px;
-   margin: 0;
-   position: relative;
+   min-height: 740px;
+   background-image: url(../../images/cover__background.svg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
    display: flex;
-   flex-direction: column;
-   align-items: center;
+   position: relative;
+   z-index: 1;
+}
+
+.cover:hover .cover__overlay {
+   opacity: 80%;
+}
+
+@media screen and (max-width: 1024px) {
+   .cover {
+      margin: auto;
+      min-height: 640px;
+   }
 }
 
 @media screen and (max-width: 768px) {
    .cover {
-      padding-top: 89px;
+      min-height: 480px;
    }
 }
 
 @media screen and (max-width: 320px) {
    .cover {
-      padding-top: 64px;
+      min-height: 200px;
    }
 }
-
