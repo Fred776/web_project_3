@@ -1,17 +1,17 @@
 .lead__image {
-    max-width: 100%;
+    width: 100%;
 }
 
 @media screen and (max-width: 768px) {
     .lead__image {
-        max-width: calc(100% + 48px);
+        width: calc(100% + 48px);
         align-self: center;
     }
 }
 
 @media screen and (max-width: 320px) {
     .lead__image {
-        max-width: calc(100% + 32px);
+        width: calc(100% + 32px);
         align-self: center;
     }
 }
