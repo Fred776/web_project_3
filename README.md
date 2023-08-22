@@ -10,4 +10,4 @@ Many thanks to TripleTen for providing me with the materials and instructions to
 
 Some future work could include adding locations to visit and providing users with other language options.
 
-[Link to the project](https://frederickjodozi.github.io/web_project_3)
+[web_project_3: From Portland to Portland](https://frederickjodozi.github.io/web_project_3)
