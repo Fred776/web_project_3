@@ -11,7 +11,7 @@ The *calc* function was used to let an image overflow margin blocks on smaller s
   
 An overlay was also used on a section to augment its background's opacity while leaving its text unchanged when hovered. 
 
-## Contributions
+## *Contributions*
 This project can be used as a template for beginners looking to improve their skills in adaptive web design and learn about media queries. It can be cloned on a local machine for studying and/or editing, and relevant pull requests will be accepted!  
   
 Potential work on the project currently includes updating the links in the footer section, providing users with other language options and adding to the site's responsiveness on smaller screen sizes.
